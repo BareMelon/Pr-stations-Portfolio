@@ -330,6 +330,20 @@ section h2::after {
   transform: translateY(-5px);
 }
 
+.profile-image {
+  border-radius: 20px;
+  filter: drop-shadow(0 10px 30px rgba(0, 255, 65, 0.2));
+  transition: all 0.3s ease;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.profile-image:hover {
+  filter: drop-shadow(0 15px 40px rgba(0, 255, 65, 0.3));
+  transform: translateY(-5px);
+}
+
 .about-text {
   flex: 1;
 }
@@ -362,6 +376,11 @@ section h2::after {
   }
   
   .profile-placeholder {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .profile-image {
     width: 200px;
     height: 200px;
   }

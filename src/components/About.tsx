@@ -14,21 +14,13 @@ const About: React.FC = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            {/* SVG Placeholder for billede */}
-            <svg 
-              className="profile-placeholder" 
-              width="300" 
-              height="300" 
-              viewBox="0 0 300 300" 
-              fill="none"
-            >
-              <rect width="300" height="300" rx="20" fill="#333333" stroke="#00ff41" strokeWidth="2"/>
-              <circle cx="150" cy="120" r="40" fill="#00ff41" opacity="0.3"/>
-              <path d="M100 200 Q150 160 200 200 L200 260 Q150 280 100 260 Z" fill="#00ff41" opacity="0.3"/>
-              <text x="150" y="280" textAnchor="middle" fill="#00ff41" fontSize="12" fontFamily="Arial">
-                Billede kommer her
-              </text>
-            </svg>
+            <img 
+              src="/profileimage.jpg" 
+              alt="Gustav Fyhn - Profile Picture" 
+              className="profile-image"
+              width="300"
+              height="300"
+            />
           </motion.div>
           <div className="about-text">
             <motion.p
