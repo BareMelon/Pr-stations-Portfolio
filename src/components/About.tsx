@@ -14,6 +14,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
+            {/* Profile image */}
             <img 
               src="/profileimage.jpg" 
               alt="Gustav Fyhn - Profile Picture" 
