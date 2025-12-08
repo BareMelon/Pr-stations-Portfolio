@@ -53,7 +53,7 @@ const Documents: React.FC = () => {
               <h3>{doc.title}</h3>
               <p className="document-description">{doc.description}</p>
               <div className="document-meta">
-                <span className="document-type">{doc.type}</span>
+                <span className="document-type">{doc.type}</span> 
                 <span className="document-date">{doc.date}</span>
               </div>
               <a
