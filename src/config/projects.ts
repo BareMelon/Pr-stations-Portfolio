@@ -34,9 +34,9 @@ export const projects: Project[] = [
     title: "Plakat Design Projekt",
     description: "Kreativt plakatdesign med moderne grafiske elementer og effektiv kommunikation.",
     detailedDescription:
-      "Dette projekt fokuserer på at skabe en visuelt tiltalende plakat, der effektivt kommunikerer et budskab til målgruppen. Plakaten kombinerer moderne designprincipper med kreative grafiske elementer for at fange opmærksomheden og formidle informationen på en klar og engagerende måde.",
+      "Dette projekt fokuserer på at skabe en visuelt tiltalende plakat, der viser lidt om mig som person samt mine interessere og baggrund. Dette er gjort ved at bruge lyse farver samt symboler for familie, arbejde, fritidsaktiviteter og andre hobbyer",
     processDescription:
-      "Jeg startede med grundige skitser på papir for at udforske forskellige idéer og layoutkombinationer. Efter at have valgt det bedste koncept, brugte jeg Canva til at skabe det endelige design. Processen involverede flere iterationer baseret på feedback og egne observationer.",
+      "Jeg startede med at skitsere på A4 for at udforske layout og ideer. Herefter åbnede jeg canva og byggede layout hvorefter jeg udfyldte farver og symboler",
     date: "2025",
     technologies: ["Canva", "Grafisk Design", "Skitsering", "Typografi", "Farvesammensætning"],
     file: "plakat.pdf"
@@ -70,9 +70,9 @@ export const projects: Project[] = [
     title: "Kolding Racing Roblox Experience",
     description: "Racing-spil i Roblox med integreret quiz, der påvirker tempo og giver et twist.",
     detailedDescription:
-      "Kolding Racing er en online Roblox-oplevelse, hvor en sammenhængende quiz er vævet ind i gameplayet. Quiz-svar påvirker løbets tempo og progression, hvilket skaber et uventet twist på det klassiske racerspil.",
+      "Kolding Racing er en online Roblox-oplevelse, hvor en sammenhængende quiz er vævet ind i gameplayet sammen med et ræs hvor det går ud på enten at konkurrere mod andre eller sætte den bedste tid for sig selv. Quiz-svar påvirker løbets tempo og progression, hvilket skaber et uventet twist på det klassiske racerspil.",
     processDescription:
-      "Jeg har designet spilsystemet i Roblox Studio og implementeret quiz-logik i Lua, så spørgsmål og svar påvirker fart/regler dynamisk. Dokumentation og præsentation findes i Produktbeskrivelse.docx.",
+      "Jeg har designet spilsystemet i Roblox Studio og implementeret quiz-logik i Lua, så spørgsmål og svar påvirker fart/regler dynamisk.",
     date: "2025",
     technologies: ["Roblox Studio", "Lua Scripting", "Level Design", "Projektledelse"],
     link: "https://www.roblox.com/games/98093756511520/Kolding-Racing",
@@ -83,9 +83,9 @@ export const projects: Project[] = [
     title: "Eventyrgenerator: Algoritmeanalyse",
     description: "Algoritmisk gennemgang af logikken bag eventyrgenerator-projektet.",
     detailedDescription:
-      "Dokumentet beskriver den anvendte algoritme til at generere eventyr. Det indeholder en trinvis forklaring af strukturen, beslutningspunkter og de tekniske overvejelser, der ligger til grund for løsningen.",
+      "Dokumentet beskriver den anvendte algoritme til at generere eventyr. Det indeholder en række spørgsmål der er med til at personalisere eventyret.",
     processDescription:
-      "Analysen blev udarbejdet ved først at skitsere flowet for eventyrgeneratoren, hvorefter algoritmen blev dokumenteret og evalueret for effektivitet og variation i output.",
+      "Jeg fik en AI (ChatGPT model: GPT-5) til at genere et eventyr hvorefter jeg ændrede alt variabel tekst som navne og andre dele som kan byttes ud og lavede dem om til variabler markeret med #VARIABLENAME og udarbejdede spørgsmål til brugeren for at personalisere teksten",
     date: "2025",
     technologies: ["Algoritmedesign", "Dokumentation", "Analyse"],
     file: "Algoritmeanalyse_Gustav-EventyrGeneratorPDF.pdf"
@@ -95,7 +95,7 @@ export const projects: Project[] = [
     title: "Eventyrgenerator: Projektbeskrivelse",
     description: "Projektbeskrivelse med mål, scope og resultater for eventyrgeneratoren.",
     detailedDescription:
-      "Projektbeskrivelsen giver et overblik over visionen for eventyrgeneratoren, de vigtigste funktioner, og hvordan projektet er planlagt og udført. Der er fokus på læringsmål og anvendte metoder.",
+      "Projektbeskrivelsen giver et overblik over visionen for eventyrgeneratoren, de vigtigste funktioner, og hvordan projektet er planlagt og udført. Der er fokus på læringsmål og anvendte metoder samt dokumentation af arbejde.",
     processDescription:
       "Beskrivelsen er udarbejdet på baggrund af projektets planlægnings- og udviklingsfaser, hvor der blev afholdt refleksioner og evalueringer for at sikre et sammenhængende produkt.",
     date: "2025",
@@ -109,7 +109,7 @@ export const projects: Project[] = [
     detailedDescription:
       "Adventure Generator er et terminalbaseret Python-projekt, der læser historier med placeholders som #CharacterName1 og beder brugeren om input, når teksten udskrives. Besvarelser gemmes og genbruges automatisk, så historien føles sammenhængende.",
     processDescription:
-      "Jeg byggede generatoren med fokus på tekstbehandling i Python. Først beskrev jeg konceptet i README, lavede historiefiler i Word og implementerede logikken i Python. Filstrukturen ligger i public/Adventure generator, så projektet kan åbnes direkte fra porteføljen.",
+      "Jeg byggede generatoren med fokus på tekstbehandling i Python. Først beskrev jeg konceptet i README, lavede historiefiler i Word og implementerede logikken i Python.",
     date: "2025",
     technologies: ["Python", "Tekstbehandling", "Brugerinput"],
     file: "Adventure%20generator/README.md"
@@ -121,7 +121,7 @@ export const projects: Project[] = [
     detailedDescription:
       "Ansøgningen er skrevet til en VFU-plads hos Bluebyte ApS, hvor jeg søger mulighed for at lære om IT-support og cybersikkerhed. Ansøgningen formidler mine interesser, ambitioner og motivation for at arbejde med IT.",
     processDescription:
-      "Ansøgningen er struktureret med fokus på at præsentere mine faglige interesser og motivation for at arbejde med IT og cybersikkerhed. Jeg har fokuseret på at være konkret og professionel i formidlingen.",
+      "Ansøgningen er struktureret med fokus på at præsentere mine faglige interesser samt kendtskab og motivation for at arbejde med IT og cybersikkerhed. Jeg har fokuseret på at være konkret og professionel i formidlingen.",
     date: "2025",
     technologies: ["Skriftlig Kommunikation", "Ansøgning"],
     file: "Portfolio%20arbejde/Ansøgning.pdf"
@@ -239,7 +239,7 @@ export const projects: Project[] = [
     title: "Virksomhed simuleret (Webbureau)",
     description: "Fiktivt webbureau-projekt hvor vi byggede og markedsførte en samlet løsning for en kunde.",
     detailedDescription:
-      "Børnehaven Fyrtøjet har vi arbejdet med og kreeret følgende hjemmeside for: https://fyrtoejetsbørnehave.framer.website. Vi har brugt vores egen hjemmeside samt reklamer til at showcase vores skills som kan ses her: https://sahurtech.site, og udover det har vi også lavet reklamevisningen \"Reklamepng.png\" fra public mappen.",
+      "Børnehaven Fyrtøjet har vi arbejdet med og kreeret følgende hjemmeside for: https://fyrtoejetsbørnehave.framer.website. Vi har brugt vores egen hjemmeside samt reklamer til at showcase vores skills som kan ses her: https://sahurtech.site, og udover det har vi også lavet reklamevisningen \"Reklamepng\".",
     processDescription:
       "Vi agerede bureau fra start til slut: behovsafdækning, wireframes, udvikling i Framer og efterfølgende eksponering via vores egen side og dedikeret reklamegrafik. Projektet er dokumenteret med CTA-knapper, så alt materiale kan åbnes direkte fra porteføljen.",
     date: "2025",

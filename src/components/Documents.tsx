@@ -10,14 +10,6 @@ const Documents: React.FC = () => {
     download?: boolean;
   }> = [
     {
-      title: "Produktbeskrivelse: Kolding Racing",
-      description: "Detaljeret produktbeskrivelse og designovervejelser for Roblox-oplevelsen Kolding Racing.",
-      type: "Dokumentation",
-      date: "2025",
-      path: "/Produktbeskrivelse.docx",
-      download: true
-    },
-    {
       title: "Algoritmeanalyse: Eventyrgenerator",
       description: "Analyse af algoritmen bag eventyrgenerator-projektet.",
       type: "Dokumentation",
@@ -34,7 +26,7 @@ const Documents: React.FC = () => {
       download: true
     },
     {
-      title: "Adventure Generator: Sigma Story",
+      title: "Adventure Generator",
       description: "Historieudkast til eventyrgeneratoren, klar til udfyldning.",
       type: "Manuskript",
       date: "2025",
@@ -42,7 +34,7 @@ const Documents: React.FC = () => {
       download: true
     },
     {
-      title: "Adventure Generator: Story skabelon",
+      title: "Projektbeskrivelse: Eventyrgenerator",
       description: "Skabelon til nye historier med plads til variabler.",
       type: "Skabelon",
       date: "2025",
