@@ -1,20 +1,53 @@
 import React from 'react';
 
 const Documents: React.FC = () => {
-  const documents = [
+  const documents: Array<{
+    title: string;
+    description: string;
+    type: string;
+    date: string;
+    path: string;
+    download?: boolean;
+  }> = [
     {
-      title: "Johan Struensee Halvshugget",
-      description: "Analyse af nyhedsartikler og film med fokus på tekststruktur og argumentation.",
-      type: "Dansk Projekt",
-      date: "",
-      downloadPath: "/Johan Struensee Halvshugget.pdf"
+      title: "Produktbeskrivelse: Kolding Racing",
+      description: "Detaljeret produktbeskrivelse og designovervejelser for Roblox-oplevelsen Kolding Racing.",
+      type: "Dokumentation",
+      date: "2025",
+      path: "/Produktbeskrivelse.docx",
+      download: true
     },
     {
-      title: "Plakat Design Projekt",
-      description: "Kreativt plakatdesign med moderne grafiske elementer og effektiv kommunikation.",
-      type: "Design Projekt",
-      date: "",
-      downloadPath: "/plakat.pdf"
+      title: "Algoritmeanalyse: Eventyrgenerator",
+      description: "Analyse af algoritmen bag eventyrgenerator-projektet.",
+      type: "Dokumentation",
+      date: "2025",
+      path: "/Algoritmeanalyse_Gustav-EventyrGenerator.docx",
+      download: true
+    },
+    {
+      title: "Projektbeskrivelse: Eventyrgenerator",
+      description: "Kort projektbeskrivelse og mål for eventyrgeneratoren.",
+      type: "Projektbeskrivelse",
+      date: "2025",
+      path: "/ProjektbeskrivelseAfEventyrGenerator.docx",
+      download: true
+    },
+    {
+      title: "Adventure Generator: Sigma Story",
+      description: "Historieudkast til eventyrgeneratoren, klar til udfyldning.",
+      type: "Manuskript",
+      date: "2025",
+      path: "/Adventure%20generator/SigmaStory.docx",
+      download: true
+    },
+    {
+      title: "Adventure Generator: Story skabelon",
+      description: "Skabelon til nye historier med plads til variabler.",
+      type: "Skabelon",
+      date: "2025",
+      path: "/Adventure%20generator/story.docx",
+      download: true
     }
   ];
 
@@ -31,13 +64,13 @@ const Documents: React.FC = () => {
                 <span className="document-type">{doc.type}</span>
                 <span className="document-date">{doc.date}</span>
               </div>
-                              <a 
-                  href={doc.downloadPath} 
-                  download 
-                  className="download-button"
-                >
-                  Download Dokument
-                </a>
+              <a
+                href={doc.path}
+                className="download-button"
+                {...(doc.download ? { download: true } : { target: "_blank", rel: "noreferrer" })}
+              >
+                "Download"
+              </a>
             </div>
           ))}
         </div>

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import './App.css'
 import ProgrammingIntro from './components/ProgrammingIntro'
@@ -7,6 +8,7 @@ import About from './components/About'
 import ProjectGrid from './components/ProjectGrid'
 import Contact from './components/Skills'
 import Documents from './components/Documents'
+// Removed 3D portfolio import
 
 function App() {
   const [showIntro, setShowIntro] = useState(true);
@@ -19,6 +21,16 @@ function App() {
     return <ProgrammingIntro onComplete={handleIntroComplete} />;
   }
 
+  return (
+    <Router>
+      <Routes>
+        <Route path="/*" element={<MainPortfolio />} />
+      </Routes>
+    </Router>
+  )
+}
+
+function MainPortfolio() {
   return (
     <motion.div 
       className="portfolio"
