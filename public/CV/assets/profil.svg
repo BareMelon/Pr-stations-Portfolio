@@ -1,0 +1,27 @@
+<svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f1f5f9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="icon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="58" fill="url(#bg)" stroke="#cbd5e0" stroke-width="2"/>
+  
+  <!-- User icon - properly sized and centered -->
+  <circle cx="60" cy="45" r="15" fill="url(#icon)"/>
+  <path d="M 40 80 Q 40 65 60 65 Q 80 65 80 80" fill="url(#icon)"/>
+  
+  <!-- Plus sign for add photo - smaller and properly positioned -->
+  <circle cx="80" cy="30" r="10" fill="#10b981" stroke="#059669" stroke-width="1"/>
+  <line x1="80" y1="25" x2="80" y2="35" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <line x1="75" y1="30" x2="85" y2="30" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Text - properly positioned and sized -->
+  <text x="60" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b" font-weight="600">PORTRAIT</text>
+</svg>
